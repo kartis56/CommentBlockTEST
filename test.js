@@ -2,9 +2,9 @@
 // @name        test-each
 // @namespace   kartis56
 // @description posfieの特定ユーザを見えなくする
-// @match     \GitHub\CommentBlockTEST
+// @match     https://github.com/kartis56/CommentBlockTEST
 // ローカルなので、URLは適当に変えてください
-// @require     https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+// @require     https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 // @version     9
 // @grant       none
 // ==/UserScript==
