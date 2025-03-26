@@ -119,7 +119,7 @@ console.log("joinedID was remove",ids);
         var hiddenUserIds = getHiddenUserIds();
 console.log("hiddenID",hiddenUserIds);
         var listItem =$('#comment-box-portal.comment_box')
-        var idLink = listItem.find("img");
+        var idLink = listItem.find("ul").find("img");
         $( idLink ).each(function(index){
 console.log("THIS at hide ",$(this));
             var id = urlToId( $(this).attr('src') );
@@ -184,8 +184,8 @@ console.log("REMOVED    ",ixRemoved[index]);
 
         var listItem =$('#comment-box-portal.comment_box');
 console.log("sensei1");
-        var idLink = listItem.find("img");
-//console.log("idLink",idLink);
+        var idLink = listItem.find("ul").find("img");
+console.log("idLink",idLink);
 
         $(idLink).each(function(index){
 //        for( let i=0;i<$(idLink).length;i++ ){
